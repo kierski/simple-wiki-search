@@ -16,7 +16,8 @@
     },
     "devDependencies": {},
     "scripts": {
-        "babel": "babel public/js_src --watch --source-maps-inline --out-dir public/js"
+      "start": "node app.js",
+      "babel": "babel public/js_src --watch --source-maps-inline --out-dir public/js"
     },
     "author": "",
     "license": "ISC",
