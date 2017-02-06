@@ -1,0 +1,33 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+  font-family: 'Merriweather', serif;
+  font-size: 5em;
+  text-align: center;
+  margin-top: .5em;
+}
+
+.jumbotron {
+  margin-top: 2em;
+}
+
+.jumbotron-result {
+  opacity: 0;
+  visibility: hidden;
+  transition: 1s;
+}
+
+.jumbotron-result.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.list-group a {
+  margin-top: 1em;
+}
+
+.list-group a:first-child {
+  margin-top: 0;
+}
